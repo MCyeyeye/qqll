@@ -9,12 +9,12 @@
 ==============Quantumult X===========
 [task_local]
 #取关京东店铺商品
-55 23 * * * https://jdsharedresourcescdn.azureedge.net/jdresource/jd_unsubscribe.js, tag=取关京东店铺商品, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
+5 10 * * * https://jdsharedresourcescdn.azureedge.net/jdresource/jd_unsubscribe.js, tag=取关京东店铺商品, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
 ===========Loon============
 [Script]
-cron "55 23 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_unsubscribe.js,tag=取关京东店铺商品
+cron "5 10 * * *" script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_unsubscribe.js,tag=取关京东店铺商品
 ============Surge=============
-取关京东店铺商品 = type=cron,cronexp="55 23 * * *",wake-system=1,timeout=3600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_unsubscribe.js
+取关京东店铺商品 = type=cron,cronexp="5 10 * * *",wake-system=1,timeout=3600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_unsubscribe.js
 ===========小火箭========
 取关京东店铺商品 = type=cron,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_unsubscribe.js, cronexpr="55 23 * * *", timeout=3600, enable=true
  */
